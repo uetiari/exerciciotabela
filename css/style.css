@@ -1,0 +1,45 @@
+body {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+table, tr, th, td, thead {
+    text-align: center;
+    padding: 10px;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+}
+
+table {
+    border-collapse: collapse;
+    color: grey; /*retira dupla linha de borda da table*/
+    margin: 0 auto;
+}
+
+thead {
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f3f3f3;
+} /*seletor que faz cores diferentes nas linhas pares[even] ou ímpares [odd]*/
+
+.fundoazul {
+    color: white;
+    background-color: #0078C1;
+    text-align: center;
+    font-weight: lighter;
+    
+}
+
+.fundoverde {
+    color: white;
+    background-color: #009E2C;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.botao {
+    display: block;
+    margin: 0 auto; /*imagem usa block e alinha, caso texto ou link, alinha inline*/
+}
